@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 4842c6125038fc74bbfc671f25f3d582
+guid: 9d46b84c6d9e85d4da053ef1917801ea
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3904183325127206128
-    second: 6453cf1c9fb0ecfd5c98b6632989d957_0
+      213: -4099418257374492983
+    second: herochar_idle_anim_strip_4_0
+  - first:
+      213: 405284731805963245
+    second: herochar_idle_anim_strip_4_1
+  - first:
+      213: -1624975481447532243
+    second: herochar_idle_anim_strip_4_2
+  - first:
+      213: 7479925196342730779
+    second: herochar_idle_anim_strip_4_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 6453cf1c9fb0ecfd5c98b6632989d957_0
+      name: herochar_idle_anim_strip_4_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 7
-        width: 357
-        height: 785
+        x: 1
+        y: 0
+        width: 13
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01b1ac773fd81d9c0800000000000000
-      internalID: -3904183325127206128
+      spriteID: 9c6417780d0fb17c0800000000000000
+      internalID: -4099418257374492983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herochar_idle_anim_strip_4_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de31f28f05cdf9500800000000000000
+      internalID: 405284731805963245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herochar_idle_anim_strip_4_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29b99bb86de279e0800000000000000
+      internalID: -1624975481447532243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: herochar_idle_anim_strip_4_3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10a082f5580ec760800000000000000
+      internalID: 7479925196342730779
       vertices: []
       indices: 
       edges: []
@@ -134,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      herochar_idle_anim_strip_4_0: -4099418257374492983
+      herochar_idle_anim_strip_4_1: 405284731805963245
+      herochar_idle_anim_strip_4_2: -1624975481447532243
+      herochar_idle_anim_strip_4_3: 7479925196342730779
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
