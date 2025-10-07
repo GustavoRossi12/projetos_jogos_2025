@@ -6,6 +6,8 @@ TagManager:
   tags:
   - tagGround
   - isground
+  - slime
+  - buraco
   layers:
   - Default
   - TransparentFX

@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class player : MonoBehaviour
 {
+    public Vector2 posicaoInicial;
+    public Game_Manager manager;
 
     public Animator anim; 
 
@@ -17,6 +19,7 @@ public class player : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         rigd = GetComponent<Rigidbody2D>();
+        posicaoInicial = transform.position;
     }
 
     // Update is called once per frame
@@ -26,6 +29,10 @@ public class player : MonoBehaviour
         Jump();
     }
 
+    public void ReiniciarPosicao()
+    {
+        transform.position = posicaoInicial;
+    }
 
     void Move()
     {
