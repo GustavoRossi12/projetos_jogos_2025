@@ -22,9 +22,12 @@ public class coin : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            Player_audio som = collision.GetComponent<Player_audio>();
+            som.PlaySFX(som.coinsSound);
             Debug.Log("colidiu");
             GameManager.AddPontos(1);
             Destroy(gameObject);
+
             
         }
     }

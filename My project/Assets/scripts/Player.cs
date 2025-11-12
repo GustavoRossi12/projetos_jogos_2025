@@ -5,6 +5,7 @@ public class player : MonoBehaviour
 {
     public Vector2 posicaoInicial;
     public Game_Manager manager;
+    private Player_audio playerAudio;
 
     public Animator anim; 
 
@@ -20,6 +21,7 @@ public class player : MonoBehaviour
         anim = GetComponent<Animator>();
         rigd = GetComponent<Rigidbody2D>();
         posicaoInicial = transform.position;
+        playerAudio = GetComponent<Player_audio>();
     }
 
     // Update is called once per frame
@@ -61,6 +63,7 @@ public class player : MonoBehaviour
             rigd.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             anim.SetInteger("transition", 2);
             isground= false;
+            playerAudio.PlaySFX(playerAudio.jumpSound);
         
         }
         
